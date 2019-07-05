@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  </head>
+  <body>
+    <form action="success.html" data-test="1">
+
+        <!-- Title -->
+        <h1>Kontaktformular</h1>
+
+        <!-- Text -->
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam laudantium voluptatibus illo dignissimos temporibus explicabo, voluptas soluta eaque dolore est laboriosam facilis nobis ad quaerat! Reiciendis magni cumque reprehenderit, tempora.</p>
+
+        <!-- NEU: Gender (single select) -->
+        <div>
+            <!-- Variante A -->
+            <label>
+                <input type="radio" name="gender" value="male" />
+                Männlich (label)
+            </label>
+        </div>
+        <div>
+            <!-- Variante B -->
+            <input type="radio" name="gender" value="female" />
+            <label for="female-radio">Weiblich (label)</label>
+        </div>
+
+        <hr>
+
+        <!-- NEU: Topics (multiple choice) -->
+        <div>
+            <label><input type="checkbox" name="category" value="envoirenment" /> Umwelt</label>
+            <label><input type="checkbox" name="category" value="society" /> Gesellschaft</label>
+            <label><input type="checkbox" name="category" value="climate" /> Klima</label>
+        </div>
+
+        <hr>
+
+        <div>
+            <!-- NEU: Priority (single select) -->
+            <label>Priorität</label>
+            <select name="priority" aria-label="Priorität wählen">
+                <option>Bitte wählen</option>
+                <option value="high">Wichtig</option>
+                <option value="medium">Mittel</option>
+                <option value="low">Unwichtig</option>
+            </select>
+        </div>
+
+        <!-- Subject (input) -->
+        <!-- NEU: maximal 60 Zeichen -->
+        <!-- NEU: Beispiel-Subject als Platzhalter -->
+        <input type="text" name="subject" placeholder="Frage zu Thema XY" maxlength="60">
+        <br />
+
+        <!-- Body (input) -->
+        <textarea name="body" cols="30" rows="10" placeholder="Bitte Text eingeben ..."></textarea>
+        <br />
+
+        <!-- Submit -->
+        <button type="submit">Absenden</button>
+
+    </form>
+  </body>
+</html>
