@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  </head>
+  <body>
+    <nav>
+      <ul class="nav">
+          <li class="nav-item">
+              <a href="#" class="nav-link">Menüpunkt #1</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">Menüpunkt #2</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">Menüpunkt #3</a>
+          </li>
+          <li class="nav-item">
+              <a href="#" class="nav-link">Menüpunkt #4</a>
+          </li>
+      </ul>
+    </nav>
+
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <form action="success.html" class="col">
+                <h2>Information</h2>
+                <input type="text" name="subject" placeholder="Frage zu Thema XY"><br />
+                <textarea name="body" placeholder="..."></textarea><br />
+                <input type="hidden" name="type" value="info" />
+                <button type="submit">Absenden</button>
+            </form>
+            <form action="success.html" class="col">
+                <h2>Beschwerde</h2>
+                <input type="text" name="subject" placeholder="Beschwerde zu Thema XY"><br />
+                <textarea name="body" placeholder="..."></textarea><br />
+                <input type="hidden" name="type" value="complaint" />
+                <button type="submit">Absenden</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>
+            Lorem ipsum dolor sit amet quos dolore.
+        </p>
+    </footer>
+
+  </body>
+</html>
