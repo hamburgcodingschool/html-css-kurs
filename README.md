@@ -42,23 +42,25 @@ Hamburg Coding School
     * Ist HTML ein Framework?
     * Welchen HTML Standard verwenden wir? Eine Zahl...
     * Was ist der Unterschied zwischen Full Responsive und Adaptives Design?
+    * Was kann Bootstrap?
     * Wann brauchen wir einen input-Type "hidden"?
     * Wofür ist das name-Attribut der input-Felder wichtig?
+    * Was ist ein GET-Parameter?
     * Wie setzt sich das Box-Model zusammen?
-    * Was sind GET-Paramter?
+* Honeycomb
 * HTTP: http://apps.testinsane.com/mindmaps/Quick-learning-about-HTTP
-* Box Model
 * Breakpoints / Grid
-* HTML-Entities / Sonderzeichen: https://www.w3schools.com/html/html_entities.asp
-* \&nbsp;
-* Emojis einbinden: https://afeld.github.io/emoji-css/
-* Tables
-* Aufgabe: Tabelle erstellen -> Kalender in Wochenansicht
+    * Aufgabe: 2x Bootstrap Cards nebeneinander darstellen
+    * HTML-Entities / Sonderzeichen: https://www.w3schools.com/html/html_entities.asp
+    * Emojis einbinden: https://afeld.github.io/emoji-css/
+    * \&nbsp;
+    * Layet mit <table> bauen und auf die Probleme in mobiler Ansicht Hinweisen
+
+## Tag 5
+
 * Aufgabe: Table erstellen
     * Artikel-Modul mit Bild: Bild (links; 50% width), Text (rechts; 50% width)
 * Lizenzen: https://choosealicense.com/
-
-## Tag 5
 
 # LICENSE
 
