@@ -50,7 +50,7 @@ Hamburg Coding School
 * Box Model
 * Breakpoints / Grid
 * HTML-Entities / Sonderzeichen: https://www.w3schools.com/html/html_entities.asp
-* &nbsp;
+* \&nbsp;
 * Emojis einbinden: https://afeld.github.io/emoji-css/
 * Tables
 * Aufgabe: Tabelle erstellen -> Kalender in Wochenansicht
