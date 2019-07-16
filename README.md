@@ -53,14 +53,32 @@ Hamburg Coding School
     * Aufgabe: 2x Bootstrap Cards nebeneinander darstellen
     * HTML-Entities / Sonderzeichen: https://www.w3schools.com/html/html_entities.asp
     * Emojis einbinden: https://afeld.github.io/emoji-css/
-    * \&nbsp;
-    * Layet mit <table> bauen und auf die Probleme in mobiler Ansicht Hinweisen
+    * Non-Breaking-Space
 
 ## Tag 5
 
-* Aufgabe: Table erstellen
-    * Artikel-Modul mit Bild: Bild (links; 50% width), Text (rechts; 50% width)
-* Lizenzen: https://choosealicense.com/
+* Review
+    * Was ist HTTP?
+    * Über welche Wege können wir Daten an der Server übermitteln?
+    * Wo finde ich den HTTP-Status Code vom Server?
+    * Welches Element ist weder ein Block- noch ein Inline-Element?
+    * Was sagt die Bootstrap-Klasse col-md-6 aus?
+    * Wie verhält sich die container-Klasse und wie die container-fluid-Klasse?
+    * Wann braucht man: input-hidden?
+    * Welche Zeichentabellen kennt ihr?
+* srcset vs d-md-none
+* Aufgabe: Layout: <cards> mit <table> bauen (responsive)
+* Aufgabe: Slider bauen
+    * Bootstrap.com -> Documentation -> Components -> Carousel Ansicht Hinweisen
+* Start CSS
+    * Hello world
+
+## Tag 6
+
+* Was ist Ajax?
+* Wie breit ist ein iPhone 5 oder SE? iPhone 6?
+* Wie verhält sich die container-Klasse und wie die container-fluid-Klasse?
+* Mein Burndown-Chart (Excel) https://docs.google.com/spreadsheets/d/10q7s2KgkAjT827930VNnj_EVsJ5SOqJooowUkIiYgGA/edit#gid=747035280
 
 # LICENSE
 
