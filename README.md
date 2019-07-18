@@ -75,10 +75,21 @@ Hamburg Coding School
 
 ## Tag 6
 
-* Was ist Ajax?
-* Wie breit ist ein iPhone 5 oder SE? iPhone 6?
-* Wie verhält sich die container-Klasse und wie die container-fluid-Klasse?
-* Mein Burndown-Chart (Excel) https://docs.google.com/spreadsheets/d/10q7s2KgkAjT827930VNnj_EVsJ5SOqJooowUkIiYgGA/edit#gid=747035280
+* Review
+    * Was ist Ajax?
+    * Wie selektiert man ein Element mit CSS?
+    * Was bedeuten 2 Bindestriche im Klassennamen
+    * Was macht die Klasse col-md-6
+    * Ist das Bootstrap-Grid adaptiv oder responsive?
+    * Welche Nachteile hat eine Tabelle wenn es um das Layout geht?
+    * Wie verhält sich die container-Klasse und wie die container-fluid-Klasse?
+* CSS
+    * Elemente schachteln
+    * Selektoren: . # * [attr] [attr=""]
+    * :hover, :active
+    * Kindselektoren: > :first-child :nth-child
+    * Pseudo-Elemente: :before, :after
+    * Wertigkeiten
 
 # LICENSE
 
