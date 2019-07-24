@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  </head>
+  <body>
+
+    <div class="container container--margin">
+        <div class="box">
+            <div class="box__inner">margin</div>
+        </div>
+    </div>
+    <div class="container container--padding">
+        <div class="box">
+            <div class="box__inner">padding</div>
+        </div>
+    </div>
+    <div class="container container--text-align">
+        <div class="box">
+            <div class="box__inner">text-align</div>
+        </div>
+    </div>
+    <div class="container container--absolute">
+        <div class="box">
+            <div class="box__inner">absolute</div>
+        </div>
+    </div>
+    <div class="container container--flex">
+        <div class="box">
+            <div class="box__inner">flex</div>
+        </div>
+    </div>
+
+
+    <style>
+
+    .container {
+        border: 5px solid #cddc39;
+        padding: 20px;
+        margin-top: 20px;
+    }
+
+    .box {
+        background-color: #cddc39;
+        padding: 10px;
+        text-align: center;
+        width: 200px;
+    }
+
+    /* margin */
+    .container--margin .box {
+        margin: 0 auto;
+    }
+
+    /* padding */
+    .container--padding {
+        width: auto;
+        padding: 0 60px;
+    }
+
+    /* text-align */
+    .container--text-align {
+        text-align: center;
+    }
+    .container--text-align .box {
+        display: inline-block;
+    }
+
+    /* absolute */
+    .container--absolute {
+        position: relative;
+        height: 100px;
+    }
+    .container--absolute .box {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    /* flex */
+    .container--flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    </style>
+
+
+  </body>
+</html>

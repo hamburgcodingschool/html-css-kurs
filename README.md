@@ -9,7 +9,7 @@ Hamburg Coding School
 * Aufgabe: Kontaktformular
 
 ## Tag 2
-* Review 30 min
+* Review (ca. 30 min)
     * Was sind die 3 Hauptelemente einer jeden HTML-Struktur?
     * Welche Elemente haben keinen Content? -> input, img, meta, br, link
     * Welche Attribute hat das img-Tag?
@@ -22,7 +22,7 @@ Hamburg Coding School
 * Aufgabe: Neue Seite: *Erfolgreich versendet*
 
 ## Tag 3
-* Review 40 min
+* Review
     * Was ist bootstrap?
     * Welche input-types kennt ihr?
     * Wofür ist das action-Attribute im form-Tag?
@@ -78,18 +78,56 @@ Hamburg Coding School
 * Review
     * Was ist Ajax?
     * Wie selektiert man ein Element mit CSS?
-    * Was bedeuten 2 Bindestriche im Klassennamen
-    * Was macht die Klasse col-md-6
+    * Was bedeuten 2 Bindestriche im Klassennamen?
+    * Was macht die Klasse col-md-6?
     * Ist das Bootstrap-Grid adaptiv oder responsive?
-    * Welche Nachteile hat eine Tabelle wenn es um das Layout geht?
-    * Wie verhält sich die container-Klasse und wie die container-fluid-Klasse?
+    * Was ist der große Nachteil ein Seitenlayout mit einer Tabelle zu bauen?
+    * Was ist der Unterschied zwischen padding und margin?
 * CSS
     * Elemente schachteln
-    * Selektoren: . # * [attr] [attr=""]
-    * :hover, :active
-    * Kindselektoren: > :first-child :nth-child
+    * margin-top, margin, padding, margin: 0 auto
+    * display: inline-block vs block
+    * Selektoren: . # >
     * Pseudo-Elemente: :before, :after
     * Wertigkeiten
+
+## Tag 7
+
+* Review
+    * Was bewirkt der Style: margin: 10px 0 0 0 und margin: 10px 0
+    * Unterschied zwischen margin und padding?
+    * Wie viel padding hat ein Bild?
+    * Wie können wir ein Element selektieren mit CSS?
+    * Was passiert wenn 2 inline-block Elemente nebeneinander liegen?
+* px vs % vs em vs rem
+* Horizontale Zentrierung:
+    * margin
+    * padding
+    * text-align
+    * absolute
+    * flex
+* Position: absolute, relative, static
+
+## Tag 8
+
+* Review
+    * Welche Möglichkeiten habe ein Element horizontal zu zentrieren?
+    * Welche Methode sollten wir immer vorziehen?
+    * Was ist der Unterschied zwischen em und rem?
+    * Womit sollten wir arbeiten? em oder rem?
+    * Was macht position: absolute?
+    * Worauf bezieht sich die absolute Positionierung mit left, top, ...?
+    *
+* Review Hausaufgabe: Popup bauen
+    * über den anderen Seiteninhalten
+    * vertikal und horizontal Zentriert
+    * 800px width auf Desktop, aber kleiner in mobiler Ansicht
+* Positionierung mit flex
+    * flex-wrap
+    * justify-content
+    * align-items
+    * flex-basis
+    * flex-shrink
 
 # LICENSE
 

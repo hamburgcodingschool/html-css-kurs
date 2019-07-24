@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>title</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="box box--px">
+            <div class="box__inner">Pixel - Lorem Ipsum</div>
+        </div>
+        <div class="box box--percent">
+            <div class="box__inner">Prozent - Lorem Ipsum</div>
+        </div>
+        <div class="box box--em">
+            <div class="box__inner">em - Lorem Ipsum</div>
+        </div>
+        <div class="box box--rem">
+            <div class="box__inner">rem - Lorem Ipsum</div>
+        </div>
+    </div>
+
+    <style>
+
+    /* HTML definiert -> rem */
+    html {
+        font-size: 20px;
+    }
+
+    /* PARENT definiert -> em */
+    .container {
+        font-size: 10px;
+    }
+
+    .box {
+        background-color: #cddc39;
+        padding: 10px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .box--px {
+        font-size: 20px;
+    }
+
+    .box--percent {
+        font-size: 200%;
+    }
+
+    .box--em {
+        font-size: 2em;
+    }
+
+    .box--rem {
+        font-size: 1rem;
+    }
+
+    </style>
+
+
+  </body>
+</html>
