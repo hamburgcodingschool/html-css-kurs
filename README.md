@@ -88,8 +88,6 @@ Hamburg Coding School
     * margin-top, margin, padding, margin: 0 auto
     * display: inline-block vs block
     * Selektoren: . # >
-    * Pseudo-Elemente: :before, :after
-    * Wertigkeiten
 
 ## Tag 7
 
@@ -113,21 +111,33 @@ Hamburg Coding School
 * Review
     * Welche Möglichkeiten habe ein Element horizontal zu zentrieren?
     * Welche Methode sollten wir immer vorziehen?
-    * Was ist der Unterschied zwischen em und rem?
-    * Womit sollten wir arbeiten? em oder rem?
     * Was macht position: absolute?
     * Worauf bezieht sich die absolute Positionierung mit left, top, ...?
-    *
+    * Was ist der Unterschied zwischen em und rem?
+    * Womit sollten wir arbeiten? em oder rem?
+    * Wie viel Prozent entspricht 2 em?
 * Review Hausaufgabe: Popup bauen
     * über den anderen Seiteninhalten
     * vertikal und horizontal Zentriert
     * 800px width auf Desktop, aber kleiner in mobiler Ansicht
+* Vertikale Zentrierung
 * Positionierung mit flex
     * flex-wrap
     * justify-content
     * align-items
+
+## Tag 9
+
+* Review
+* Hausaufgabe: Popup schließen
+    * Kreuz in der oberen rechten Ecke zum schließen
+    * Drückt der Benutzer auf den Hintergrund schließt es sich ebenfalls
+    * Popup erhält shadow
+* Positionierung mit flex
     * flex-basis
     * flex-shrink
+* Pseudo-Elemente: :before, :after
+* Wertigkeiten
 
 # LICENSE
 
