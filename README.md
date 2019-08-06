@@ -120,24 +120,49 @@ Hamburg Coding School
     * über den anderen Seiteninhalten
     * vertikal und horizontal Zentriert
     * 800px width auf Desktop, aber kleiner in mobiler Ansicht
-* Vertikale Zentrierung
 * Positionierung mit flex
-    * flex-wrap
     * justify-content
     * align-items
 
 ## Tag 9
 
-* Review
 * Hausaufgabe: Popup schließen
     * Kreuz in der oberen rechten Ecke zum schließen
     * Drückt der Benutzer auf den Hintergrund schließt es sich ebenfalls
     * Popup erhält shadow
-* Positionierung mit flex
-    * flex-basis
-    * flex-shrink
-* Pseudo-Elemente: :before, :after
+* Review
+    * Was bedeutet position: absolute?
+    * Was bedeutet position: fixed?
+    * Was bedeutet der Selektor: :target?
+    * Wie zentriere ich mithilfe von margin?
+    * Was macht die Klasse col-md-6?
+    * Wie ist das Box-Model aufgebaut?
 * Wertigkeiten
+* Aufgabe: Header-Leiste (Logo, Navigation, Suche)
+    * Logo
+    * Navigation
+    * Suche
+
+## Tag 10
+
+* Review
+    * Welche Möglichkeiten habe ich ein Element per CSS zu selektieren?
+    * Was bedeuten Wertigkeiten in CSS?
+    * Mit welchem Keyword überschreibe ich alle anderen Selektoren?
+    * Wenn zwei Selektoren identisch sind, was ist dann entscheidend?
+    * Was ist flex?
+    * Welche 3 CSS-Styles muss ich setzen um ein Element vert. und hori. zu zentrieren?
+    * Was ist der z-index?
+    * Was hat die Reihenfolge der Elemente mit dem z-index zu tun?
+* Hausaufgabe: Header-Leiste
+* Wertigkeit: https://css-tricks.com/specifics-on-css-specificity/
+    * Mathematik dahinter: https://www.w3.org/TR/selectors-3/#specificity
+* Aufgabe: CSS Wertigkeiten
+    * Element
+    * Class selectors
+    * ID Selectors
+    * Inline styles
+    * !important
 
 # LICENSE
 

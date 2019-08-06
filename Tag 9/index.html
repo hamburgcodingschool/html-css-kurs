@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Header</title>
+        <link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+        <style>
+
+            .header {
+                position: fixed;
+                left: 0;
+                top: 0;
+                right: 0;
+                background-color: black;
+                color: white;
+                display: flex;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <header class="header">
+
+            <div class="header__logo">
+                <img src="http://placekitten.com/200/50" alt="Logo">
+            </div>
+
+            <nav class="navigation">
+                <ul>
+                    <li class="navigation__item">
+                        <a href="#">Startseite</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">News</a>
+                    </li>
+                    <li class="navigation__item">
+                        <a href="#">Impressum</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="header__share">
+                <a href="#" aria-label="Diese Seite teilen">
+                    <img src="share.svg" alt="share">
+                </a>
+            </div>
+
+        </header>
+
+    </body>
+</html>
