@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Header</title>
+  <link rel="stylesheet" type="text/css" href="bootstrap.css">
+
+  <style>
+
+    body {
+        padding-top: 50px;
+    }
+
+    .header {
+      position: fixed;
+      width: 100%;
+      left: 0;
+      top: 0;
+      background-color: grey;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    a:link,
+    a:active,
+    a:visited,
+    a:hover {
+      color: black;
+      text-decoration: none;
+    }
+
+    .navigation > ul {
+        margin: 0;
+        padding: 0;
+        height: 100%;
+        list-style-type: none;
+        display: flex;
+    }
+
+    .navigation__item > a {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .navigation__item:hover .navigation__sub {
+        display: block;
+    }
+
+    .navigation__sub {
+        position: absolute;
+        display: none;
+        background-color: white;
+    }
+
+    .navigation__sub__item {
+
+    }
+
+    .header__share {
+        display: flex;
+        align-items: stretch;
+    }
+
+    .header__share > a {
+        display: flex;
+        align-items: center;
+        padding: 0 12.5px;
+        transition: all .6s ease;
+    }
+
+    .header__share > a:hover {
+        background-color: rgba(255,255,255,.3);
+        border-radius: 100%;
+    }
+
+    .header__share > a > img {
+        width: 25px;
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="header__logo">
+      <img src="http://placekitten.com/200/50" alt="Logo">
+    </div>
+
+    <nav class="navigation">
+      <ul>
+
+        <li class="navigation__item">
+          <a href="#">Startseite</a>
+        </li>
+
+        <li class="navigation__item">
+          <a href="#">News</a>
+          <ul class="navigation__sub">
+            <li class="navigation__sub__item">
+              <a href="#">Aktuelles</a>
+            </li>
+            <li class="navigation__sub__item">
+              <a href="#">Letzter Monat</a>
+            </li>
+            <li class="navigation__sub__item">
+              <a href="#">Letztes Jahr</a>
+            </li>
+          </ul>
+        </li>
+
+        <li class="navigation__item">
+          <a href="#">Impressum</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="header__share">
+      <a href="#" aria-label="Diese Seite teilen">
+        <img src="share.svg" alt="share">
+      </a>
+    </div>
+
+  </header>
+
+    <div class="container" style="height: 110vh">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+
+</body>
+
+</html>

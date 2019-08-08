@@ -147,22 +147,46 @@ Hamburg Coding School
 
 * Review
     * Welche Möglichkeiten habe ich ein Element per CSS zu selektieren?
-    * Was bedeuten Wertigkeiten in CSS?
+    * Was bedeuten Wertigkeiten in CSS? https://css-tricks.com/specifics-on-css-specificity/
     * Mit welchem Keyword überschreibe ich alle anderen Selektoren?
     * Wenn zwei Selektoren identisch sind, was ist dann entscheidend?
-    * Was ist flex?
-    * Welche 3 CSS-Styles muss ich setzen um ein Element vert. und hori. zu zentrieren?
+    * Was ist flex(box)?
+    * Welche 3 CSS-Styles muss ich setzen um ein Element vert. und hori. zu zentrieren mit flex?
     * Was ist der z-index?
     * Was hat die Reihenfolge der Elemente mit dem z-index zu tun?
 * Hausaufgabe: Header-Leiste
-* Wertigkeit: https://css-tricks.com/specifics-on-css-specificity/
+* Wertigkeiten: https://css-tricks.com/specifics-on-css-specificity/
     * Mathematik dahinter: https://www.w3.org/TR/selectors-3/#specificity
-* Aufgabe: CSS Wertigkeiten
-    * Element
-    * Class selectors
-    * ID Selectors
-    * Inline styles
-    * !important
+
+## Tag 11
+
+* Retro
+    * Was hat euch gefallen und was nicht?
+    * Was können wir verbessern? Wie können wir noch effektiver werden?
+        * Klare Auflistung der Dinge die man nach dem Kurs drauf hat
+* Review
+    * Welche Möglichkeiten habe ich ein Element per CSS zu selektieren?
+    * vh und vw?
+    * align-items: stretch
+    * Unterschied zwischen margin und padding?
+    * Wenn zwei Selektoren identisch sind, was ist dann entscheidend?
+    * Was ist der Unterschied zwischen em und rem?
+    * Was muss gesetzt sein, um mit top, left, right oder bottom zu arbeiten?
+* Hausaufgabe: Sub-Menu
+    * Dropdown Menü
+    * Hover-Effekt auf den Navigationspunkten
+* Share-Popup per Klick -> :target
+    * Facebook & Twitter button
+* Hausaufgabe:
+    * Was macht: position: sticky?
+* Was machen wir an eurer Website?
+
+## Tag 12
+
+* Review
+    *
+* Hausaufgabe: Gallerie erstellen -> Slick Slider: https://github.com/kenwheeler/slick/
+* SCSS
 
 # LICENSE
 
