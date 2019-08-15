@@ -1,0 +1,67 @@
+
+.skill-matrix {
+
+}
+
+.skill-matrix__header {
+    padding: 15px 15px;
+}
+
+.skill-matrix__header__name {
+    font-size: 24px;
+}
+
+.skill-matrix__header__team {
+    font-size: 24px;
+}
+
+.skill-matrix__skill {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.skill-matrix__skill:nth-child(2n) {
+    background-color: #F0F0F0;
+}
+
+.skill-matrix__skill input[type="radio"] {
+    width: 20px;
+}
+
+.skill-matrix__skill__level {
+    min-width: 120px;
+}
+
+.skill-matrix__skill--header .skill-matrix__skill__level > span {
+    min-width: 20px;
+    display: inline-block;
+    text-align: center;
+    padding-right: 2px;
+}
+
+.skill-matrix__skill--header {
+    font-weight: bold;
+    border: 1px solid #999;
+}
+
+.skill-matrix__skill__name {
+    flex-basis: 70%;
+}
+
+.skill-matrix__skill__level-description {
+    flex-grow: 1;
+    text-align: right;
+    padding-right: 15px;
+    min-width: 80px;
+}
+
+.info-icon {
+    border: 1px solid black;
+    padding: 0;
+    border-radius: 100%;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    text-align: center;
+}

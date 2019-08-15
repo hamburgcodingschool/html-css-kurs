@@ -1,5 +1,23 @@
 # HTML und CSS Kurs 2019
-Hamburg Coding School
+
+
+| Kategorie                      | Keine Kenntnisse | Grundkenntnisse | Erweiterte Kenntnisse |
+| ------------------------------ | :--------------: | :-------------: | :-------------------: |
+| HTML Syntax                    |                  |                 |           x           |
+| HTML Grundstruktur             |                  |                 |           x           |
+| HTML Elemente                  |                  |                 |           x           |
+| HTML Header Informationen      |                  |        x        |                       |
+| HTTP                           |                  |        x        |                       |
+| CSS Naming Convention: BEM     |                  |        x        |                       |
+| CSS Selektoren                 |                  |        x        |                       |
+| CSS Positionierung (auch flex) |                  |                 |           x           |
+| Responsive / Adaptive Design   |                  |                 |           x           |
+| CSS Animationen                |        x         |                 |                       |
+| Ordner-/Projektstrukturen      |        x         |                 |                       |
+| Chrome DevTools                |                  |                 |           x           |
+| Git                            |                  |        x        |                       |
+| SCSS                           |        x         |                 |                       |
+| Gulp / Grunt (Prebuilding)     |        x         |                 |                       |
 
 ## Tag 1
 * Kennenlernen
@@ -175,18 +193,34 @@ Hamburg Coding School
 * Hausaufgabe: Sub-Menu
     * Dropdown Menü
     * Hover-Effekt auf den Navigationspunkten
-* Share-Popup per Klick -> :target
-    * Facebook & Twitter button
-* Hausaufgabe:
-    * Was macht: position: sticky?
 * Was machen wir an eurer Website?
 
 ## Tag 12
 
-* Review
-    *
-* Hausaufgabe: Gallerie erstellen -> Slick Slider: https://github.com/kenwheeler/slick/
+* Aufgabe: Skill-Matrix erstellen
+* Hausaufgabe: Skill-Matrix erweitern
+
+## Tag 13
+
+* Hausaufgabe besprechen
 * SCSS
+* Selektor: +
+* Pseudo-Elemente
+* Transitions
+* Hausaufgabe: Skill-Matrix erweitern
+    * Popup hübsch machen
+
+## Tag 14
+
+* Review
+    * Welche Pseudo-Selektoren kennt ihr?
+    * Was bedeuten 2 Unterstriche im Klassennamen?
+    * Was bedeuten 2 Bindestriche im Klassennamen?
+    * Macht es einen Unterschied ob 2 Elemente innerhalb einer Flexbox display: inline-block oder block sind?
+    * Was ist SCSS?
+    * Was ist ein Pseudeo-Element?
+    * Welche 3 Parameter benötigt eine Transition?
+    * Was macht der CSS-Selektor: +
 
 # LICENSE
 
