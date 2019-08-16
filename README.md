@@ -1,23 +1,23 @@
 # HTML und CSS Kurs 2019
 
 
-| Kategorie                      | Keine Kenntnisse | Grundkenntnisse | Erweiterte Kenntnisse |
-| ------------------------------ | :--------------: | :-------------: | :-------------------: |
-| HTML Syntax                    |                  |                 |           x           |
-| HTML Grundstruktur             |                  |                 |           x           |
-| HTML Elemente                  |                  |                 |           x           |
-| HTML Header Informationen      |                  |        x        |                       |
-| HTTP                           |                  |        x        |                       |
-| CSS Naming Convention: BEM     |                  |        x        |                       |
-| CSS Selektoren                 |                  |        x        |                       |
-| CSS Positionierung (auch flex) |                  |                 |           x           |
-| Responsive / Adaptive Design   |                  |                 |           x           |
-| CSS Animationen                |        x         |                 |                       |
-| Ordner-/Projektstrukturen      |        x         |                 |                       |
-| Chrome DevTools                |                  |                 |           x           |
-| Git                            |                  |        x        |                       |
-| SCSS                           |        x         |                 |                       |
-| Gulp / Grunt (Prebuilding)     |        x         |                 |                       |
+| Kategorie                       | Keine Kenntnisse | Grundkenntnisse | Erweiterte Kenntnisse |
+| ------------------------------- | :--------------: | :-------------: | :-------------------: |
+| HTML Syntax                     |                  |                 |           x           |
+| HTML Grundstruktur              |                  |                 |           x           |
+| HTML Elemente                   |                  |                 |           x           |
+| HTML Header Informationen       |                  |        x        |                       |
+| HTTP                            |                  |        x        |                       |
+| CSS Naming Convention: BEM      |                  |        x        |                       |
+| CSS Selektoren                  |                  |        x        |                       |
+| CSS Positionierung (inkl. flex) |                  |                 |           x           |
+| Responsive / Adaptive Design    |                  |                 |           x           |
+| CSS Animationen                 |                  |        x        |                       |
+| Ordner-/Projektstrukturen       |        x         |                 |                       |
+| Chrome DevTools                 |                  |                 |           x           |
+| Git                             |                  |        x        |                       |
+| SCSS                            |                  |        x        |                       |
+| Gulp / Grunt (Prebuilding)      |        x         |                 |                       |
 
 ## Tag 1
 * Kennenlernen
@@ -217,10 +217,19 @@
     * Was bedeuten 2 Unterstriche im Klassennamen?
     * Was bedeuten 2 Bindestriche im Klassennamen?
     * Macht es einen Unterschied ob 2 Elemente innerhalb einer Flexbox display: inline-block oder block sind?
-    * Was ist SCSS?
     * Was ist ein Pseudeo-Element?
     * Welche 3 Parameter benötigt eine Transition?
     * Was macht der CSS-Selektor: +
+* Hausaufgaben durchgehen
+
+## Tag 15
+
+* Review
+    * :before und :after?
+    * Wie können wir Sonderzeichen per CSS einfügen? Z.B. einen Pfeil
+    * Was bedeuten 2 Unterstriche im Klassennamen?
+    * Was bedeuten 2 Bindestriche im Klassennamen?
+    *
 
 # LICENSE
 
